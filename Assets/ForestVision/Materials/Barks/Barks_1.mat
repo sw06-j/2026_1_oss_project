@@ -2,23 +2,36 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Barks_1
-  m_Shader: {fileID: 4800000, guid: 1498191ea505a6b42ba7fdbb535b16e8, type: 3}
-  m_ShaderKeywords: _MAINNORMALBLENDCHOICE_MAIN_NORMAL _NORMALMAP _PARALLAXMAP _SNOWMASKBLENDSTYLE_ADDITIVE
-    _SNOWMASKCHOICE2_MASK_R _SNOWMASKCHOICE_MASK_R _SPECGLOSSMAP _TOPMASKBLENDSTYLE_ADDITIVE
-    _TOPMASKCHOICE2_MASK_R _TOPMASKCHOICE_MASK_R _TOPNORMALBLENDCHOICE_MAIN_NORMAL
-    _WINDQUALITY_NONE
+  m_Shader: {fileID: 4800000, guid: 248496a8246f67845a6f0227f4cef1bb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _MAINNORMALBLENDCHOICE_MAIN_NORMAL
+  - _NORMALMAP
+  - _PARALLAXMAP
+  - _SNOWMASKBLENDSTYLE_ADDITIVE
+  - _SNOWMASKCHOICE2_MASK_R
+  - _SNOWMASKCHOICE_MASK_R
+  - _SPECGLOSSMAP
+  - _TOPMASKBLENDSTYLE_ADDITIVE
+  - _TOPMASKCHOICE2_MASK_R
+  - _TOPMASKCHOICE_MASK_R
+  - _TOPNORMALBLENDCHOICE_MAIN_NORMAL
+  - _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -118,6 +131,11 @@ Material:
         m_Texture: {fileID: 2800000, guid: 90235802c7a94154ebe74e90f4f3f812, type: 3}
         m_Scale: {x: 1, y: 2.52}
         m_Offset: {x: 0, y: 0}
+    - _VertexWeight:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BillboardKwToggle: 0
     - _BillboardShadowFade: 0.5
@@ -145,6 +163,9 @@ Material:
     - _NormalMapKwToggle: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _ShakeBending: 0.2
+    - _ShakeTime: 0.25
+    - _ShakeWindspeed: 0.3
     - _Shininess: 0.078125
     - _SideDepth: 0
     - _SideLevel: 0
@@ -215,3 +236,5 @@ Material:
     - _TopDirection: {r: 0, g: 0, b: 0, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
